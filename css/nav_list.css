@@ -1,0 +1,99 @@
+a:link {
+    text-decoration: none;
+
+}
+
+
+.navs ul {
+    *zoom: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: rgb(244, 244, 244);
+}
+
+.navs ul:before,
+.navs ul:after {
+    content: "";
+    display: table;
+
+}
+
+.navs ul:after {
+    clear: both;
+}
+
+.navs ul>li {
+    float: right;
+    
+
+}
+
+.navs a {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 1.2em;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+
+.sit {
+    position: relative;
+}
+
+.navs a:hover {
+    text-decoration: none;
+    color:brown;
+}
+
+.navs li ul {
+    background: rgb(161, 66, 11);
+}
+
+.navs li ul li {
+    width: 100%;
+}
+
+.navs li ul a:hover {
+    background: rgba(0, 0, 0, 0.19999999999999996);
+    color: white;
+}
+
+.nav5 ul>li:hover ul {
+    max-height: 1000px;
+    -webkit-transform: perspective(400) rotate3d(0, 0, 0, 0);
+}
+
+.nav5 li ul {
+    position: absolute;
+    left: 0;
+    top: 53px;
+    z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transform: perspective(400) rotate3d(1, 0, 0, -90deg);
+    -webkit-transform-origin: 50% 0;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+}
+
+nav .navlist .icon .img {
+    width: 50%;
+}
+
+nav .navlist .nav5 {
+    width: 70%;
+}
+
+nav .navlist .nav5 .nav_ul {
+    display: flex;
+    height: 100%;
+}
+
+nav .navlist .nav5 .nav_li {
+    margin: auto;
+}

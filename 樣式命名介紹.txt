@@ -1,0 +1,19 @@
+﻿
+#video區塊
+-----------------------------------------------
+    .loading_page = 切換頁面時載入的背景
+    .video_section = 滑撥影片區塊的整個頁面
+    .video_slidebox = 可滑動的方塊
+    .video_slidebox_section = 滑動方塊滑動的限制區域
+    .video_slidebox_alpha = 滑動方塊的隱形抓取區塊
+    .play_box = 滑動方塊到達的定位方塊(可簡稱播放方塊)
+    .play_box_son = 播放方塊的較大子層
+    .video_mask = 滑動時變換的濾鏡
+    .videoplayer = 影片
+    .videoplayer_box = 影片頁面的區塊
+    .videoplayer_box_exit = 影片頁面離開的按鈕
+/* JS操控的CSS樣式 */
+    .active = 方塊出現
+    .noactive = 方塊消失
+    .alpha = 方塊漸變消失
+-----------------------------------------------

@@ -1,0 +1,97 @@
+        .intro {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            bottom: 10vh;
+            display: none;
+            z-index: 10;
+
+        }
+
+        /* .intro-back {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            bottom: 10vh;
+            display: none;
+            z-index: 10;
+        } */
+
+
+        .video_shadow {
+            width: 100%;
+            height: 10%;
+            background-color: black;
+
+            position: relative;
+        }
+
+        .video_shadow_l_back {
+            animation-name: moveGo;
+           background: linear-gradient(126deg, #B5A93E 30%, #8C512D 77%);
+            animation-timing-function: cubic-bezier(.46, .03, .07, 1);
+            animation-duration: 3s;
+        }
+
+        .video_shadow_l {
+            animation-name: moveToRight;
+            background: linear-gradient(126deg, #B5A93E 30%, #8C512D 77%);
+            animation-timing-function: cubic-bezier(.46, .03, .07, 1);
+            animation-duration: 1.5s;
+        }
+
+
+        .video_shadow_r {
+            animation-name: moveToLeft;
+            background: linear-gradient(299deg, #B5A93E 30%, #8C512D 77%);
+            animation-timing-function: cubic-bezier(.46, .03, .07, 1);
+
+            animation-duration: 1.5s;
+        }
+
+        .video_shadow_r_back {
+            animation-name: moveBack;
+            background: linear-gradient(299deg, #B5A93E 30%, #8C512D 77%);
+            animation-timing-function: cubic-bezier(.46, .03, .07, 1);
+            animation-duration: 3s;
+        }
+
+        @keyframes moveToRight {
+            0% {
+                left: -100%;
+            }
+
+            100% {
+                left: 0;
+            }
+        }
+
+        @keyframes moveGo {
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: -100%;
+            }
+        }
+
+         @keyframes moveBack {
+            0% {
+                right: 0;
+            }
+
+            100% {
+                right: -100%;
+            }
+        }
+
+        @keyframes moveToLeft {
+            0% {
+                right: -100%;
+            }
+
+            100% {
+                right: 0;
+            }
+        }
