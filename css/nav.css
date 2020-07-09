@@ -1,3 +1,8 @@
+*{
+    scroll-behavior: smooth !important;
+}
+
+
 
 /*-----強調SEO-----*/
 h2{
@@ -70,7 +75,7 @@ text-align: center;
     font-weight: 100;
 }
 .subMenu>li {
-width: 150px;
+width: 120px;
 }
 .subMenu>li a{
     color: white;
@@ -100,13 +105,16 @@ width: 150px;
   @media (max-width: 768px) {
     .headerContent{
       justify-content: center;
-      padding: 0 15px 0 0;
+      /* padding: 0 80px 0 0; */
     }
     .header{
         position: relative;
+        position: sticky;
     }
+
+
     .headerContent .logo img {
-        width: 400px;
+        width: 260px;
     }
     .headerContent .navBar  {
       display: none;
@@ -197,20 +205,15 @@ width: 150px;
         transform: rotate(45deg) translate(-8px, -8px);
     }
 }
-   /*-----------RWD設定---------*/
+   
 
-  
- 
-
-
-/* ----------------------------------------------- */
-/* .container {
-    width: 100%;
-    height: 100vh;
-    background-color: brown;
-} */
-
-/* ----------------------------------------------- */
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .reservation {
     padding: 0 2px;
@@ -218,15 +221,17 @@ width: 150px;
     background-color: orange;
     position: fixed;
     right: 50px;
-    bottom: 200px;
+    bottom: 180px;
     width: 60px;
-    height: 250px;
+    height: 180px;
     border-radius: 30px;
-    z-index: 99 !important;
+    z-index: 80;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 .reservation>span {
     text-align: center;
@@ -247,12 +252,13 @@ width: 150px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
-    z-index: 99 !important;
+    z-index: 80;
 }
 
 .reservation:hover {
     transform: scale(1.2);
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .gototop:hover {
@@ -289,7 +295,7 @@ width: 150px;
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 50%;
-        z-index: 99 !important;
+        z-index: 80;
     }
 
 }

@@ -1,9 +1,11 @@
 window.onload = function () { //Loading效果 與 Aos初始化
     AOS.init();
+    $('.header').addClass('noactive')
     $('body').addClass('scrollY_hidden')
     $(".loading_page").fadeIn(200)
 
     setTimeout(function () {
+        $('.header').removeClass('noactive')
         $('body').removeClass('scrollY_hidden')
         $(".loading_page").fadeOut(500);
     }, 500); 
