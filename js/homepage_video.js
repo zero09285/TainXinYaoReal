@@ -97,7 +97,7 @@ $(".video_slidebox").on("dragstop", function () {//拖動結束後增加現在�
     // $(".swiper-right").css('opacity', 1);
     if ($(".video_mask").css('opacity') <= 0.23) {
         $('#banner').addClass('noactive')
-        $('nav').addClass('noactive')
+        $('header').addClass('noactive')
         $('footer').addClass('noactive')
         $('.gototop').addClass('noactive')
         $('.video_section_bottom').addClass('noactive')
@@ -163,7 +163,7 @@ $(".videoplayer_box_exit"),$('.videoplayer_box').click(function () {//看完影�
             $('body').removeClass('scrollY_hidden')
             $('body').removeClass('noHeight')    
             $('#banner').removeClass('noactive')
-            $('nav').removeClass('noactive')
+            $('header').removeClass('noactive')
             $('footer').removeClass('noactive')
             $('.gototop').removeClass('noactive')
             $('.reservation').removeClass('noactive')
@@ -203,7 +203,7 @@ $(".videoplayer_box_exit"),$('.videoplayer_box').click(function () {//看完影�
 
     $('.RWD_playbox').click(function () {
         $('#banner').addClass('noactive')
-        $('nav').addClass('noactive')
+        $('header').addClass('noactive')
         $('footer').addClass('noactive')
         $('.gototop').addClass('noactive')
         $('.RWD_playbox').addClass('noactive')

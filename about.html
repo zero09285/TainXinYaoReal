@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="./css/nav_list.css">
   <link rel="stylesheet" href="./css/AboutPage/AboutPage.css">
   <link rel="stylesheet" href="./css/AboutPage/AboutPage_timeline.css">
+  <link rel="stylesheet" href="./css/AboutPage/AboutPage_marquee.css">
   <link rel="stylesheet" href="./css/footer.css">
   <!--CSS檔外連-->
 
@@ -32,7 +33,84 @@
     <div class="loader">Loading...</div>
   </div>
 
-  <nav id="nav" class="sticky-top">
+  <header class="header">
+    <div class="container">
+        <div class="headerContent">
+            <h1 class="logo">
+                <img src="./logo.png" alt="添興窯logo">
+            </h1>
+            <nav class="navBar">
+                <ul class="mainMenu">
+                    <h2>Nav Bar</h2>
+                    <li class="mainLi">
+                        <a class="mainA" href="#"><span class="select">關於添興</span></a>
+                    </li>
+                    <li class="mainLi">
+                        <a class="mainA" href="#"><span class="select">參觀資訊</span></a>
+                        <ul class="subMenu">
+                            <li><a href="#"><span class="select">車票與交通</span></a></li>
+                            <li><a href="#"><span class="select">環境設施</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a class="mainA" href="#"><span class="select">DIY體驗</span></a>
+                    </li>
+                    <li class="mainLi">
+                        <a class="mainA" href="#"><span class="select">經典商品</span></a>
+                    </li>
+                    <li class="mainLi">
+                        <a class="mainA" href="#"><span class="select">周邊景點</span></a>
+                    </li>
+                    <li class="mainLi">
+                        <a class="mainA" href="#"><span class="select">團體預約</span></a>
+                    </li>
+                </ul>
+                <div class="icon">
+                    
+                    <div class="icon_change ">
+                    <a id="icon_a" href="#">
+                        <img class="icon_pic " src="./img/icon-fb-h.svg" alt="">
+                        <img class="icon_pic" src="./img/icon-fb.svg" alt="">
+                    </a>
+                    </div>
+
+                    <div class="icon_change ">
+                        <a id="icon_a" href="#">
+                        <img class="icon_pic " src="./img/icon-ig-h.svg" alt="">
+                        <img class="icon_pic" src="./img/icon-ig.svg" alt="">
+                    </a>
+                    </div>
+
+                    <div class="icon_change ">
+                        <a id="icon_a" href="#">
+                        <img class="icon_pic " src="./img/icon-twitter-h.svg" alt="">
+                        <img class="icon_pic" src="./img/icon-twitter.svg" alt="">
+                    </a>
+                    </div>
+
+                    <div class="icon_change ">
+                        <a id="icon_a" href="#">
+                        <img class="icon_pic " src="./img/icon-youtube-h.svg" alt="">
+                        <img class="icon_pic" src="./img/icon-youtube.svg" alt="">
+                    </a>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="burgar_btn ">
+                <a href="#">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+  <!-- <nav id="nav" class="sticky-top">
     <div class="container">
       <div class="navlist">
         <a class="icon" href="./homepage.html" target="_blank">
@@ -66,7 +144,7 @@
         </nav>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <div id="main">
     <div class="container">
@@ -122,7 +200,72 @@
         </div>
 
         <div class="bottleB"></div>
-        <div class="tab_cricle"></div>
+        <div class="tab_cricle">
+
+          <div class="tab-btn-group">
+            <input id="btn-1" class="tab-btn tab_active" type="button" value="理念&使命">
+            <input id="btn-2" class="tab-btn" type="button" value="得獎經歷">
+            <!-- <div id="btn-3" class="tab-btn">分頁3</div> -->
+            <input id="btn-3" class="tab-btn" type="button" value="作品賞析">
+          </div>
+          <section id="title" class="tab_title">
+            <div class="container">
+              <div class="title-main">
+                <h1><img src="./img/title-master.svg" alt="DIY體驗" width="300" /></h1>
+              </div>
+            </div>
+          </section>
+          <div class="tab-content-group">
+            <div id="content-1" class="tab-content tab_active">
+              <h3>理念</h3>
+              <span
+                class="tab_text">使命傳承陶藝文化，以傳統陶製品為基礎之創意生活產業，並繼續在窯場中注入「休閒體驗」及「陶藝文化園區」合併的精神，作為永續經營的模式。陶瓷商品跟陶藝品最大的差別，就是在內涵
+                很多人把藝術這二個字的定義，講得天花亂墜，但是我用那個洋人給我們一個最簡單的定義就是真善美！
+                真就是誠實，善就是把所有的事情，所有的作品做到盡善，那美，當然是一個結果。
+                我們希望這個作品是讓你越看越愛，越愛越用，這樣能夠長久的東西，我才認為它是陶藝品。
+              </span>
+              <p>
+              <p>
+              <p>
+              <p>
+              <h3>使命</h3>
+              <span class="tab_text">傳承陶藝文化，以傳統陶製品為基礎之創意生活產業，並繼續在窯場中注入「休閒體驗」及「陶藝文化園區」合併的精神，作為永續經營的模式。</span>
+            </div>
+            <div id="content-2" class="tab-content">
+              <h3>理念</h3>
+              <span
+                class="tab_text">2使命傳承陶藝文化，以傳統陶製品為基礎之創意生活產業，並繼續在窯場中注入「休閒體驗」及「陶藝文化園區」合併的精神，作為永續經營的模式。陶瓷商品跟陶藝品最大的差別，就是在內涵
+                很多人把藝術這二個字的定義，講得天花亂墜，但是我用那個洋人給我們一個最簡單的定義就是真善美！
+                真就是誠實，善就是把所有的事情，所有的作品做到盡善，那美，當然是一個結果。
+                我們希望這個作品是讓你越看越愛，越愛越用，這樣能夠長久的東西，我才認為它是陶藝品。
+              </span>
+              <p>
+              <p>
+              <p>
+              <p>
+              <h3>使命</h3>
+              <span class="tab_text">傳承陶藝文化，以傳統陶製品為基礎之創意生活產業，並繼續在窯場中注入「休閒體驗」及「陶藝文化園區」合併的精神，作為永續經營的模式。</span>
+            </div>
+            <div id="content-3" class="tab-content">
+              <h3>理念</h3>
+              <span
+                class="tab_text">3使命傳承陶藝文化，以傳統陶製品為基礎之創意生活產業，並繼續在窯場中注入「休閒體驗」及「陶藝文化園區」合併的精神，作為永續經營的模式。陶瓷商品跟陶藝品最大的差別，就是在內涵
+                很多人把藝術這二個字的定義，講得天花亂墜，但是我用那個洋人給我們一個最簡單的定義就是真善美！
+                真就是誠實，善就是把所有的事情，所有的作品做到盡善，那美，當然是一個結果。
+                我們希望這個作品是讓你越看越愛，越愛越用，這樣能夠長久的東西，我才認為它是陶藝品。
+              </span>
+              <p>
+              <p>
+              <p>
+              <p>
+              <h3>使命</h3>
+              <span class="tab_text">傳承陶藝文化，以傳統陶製品為基礎之創意生活產業，並繼續在窯場中注入「休閒體驗」及「陶藝文化園區」合併的精神，作為永續經營的模式。</span>
+            </div>
+
+          </div>
+
+
+        </div>
         <div class="bottleS"></div>
 
       </div>
@@ -173,8 +316,60 @@
 
     </section>
 
+    <div class="marquee">
+      <div class="marquee--inner">
+        <span>
+          <div class="orb marquee_1"></div>
+          <div class="orb marquee_2"></div>
+          <div class="orb marquee_3"></div>
+          <div class="orb marquee_4"></div>
+          <div class="orb marquee_5"></div>
+        </span>
+        <span>
+          <div class="orb marquee_1"></div>
+          <div class="orb marquee_2"></div>
+          <div class="orb marquee_3"></div>
+          <div class="orb marquee_4"></div>
+          <div class="orb marquee_5"></div>
+        </span>
+        <span>
+          <div class="orb marquee_1"></div>
+          <div class="orb marquee_2"></div>
+          <div class="orb marquee_3"></div>
+          <div class="orb marquee_4"></div>
+          <div class="orb marquee_5"></div>
+        </span>
+  
+      </div>
+      <div class="marquee--inner2">
+        <span>
+          <div class="orb marquee_6"></div>
+          <div class="orb marquee_7"></div>
+          <div class="orb marquee_8"></div>
+          <div class="orb marquee_9"></div>
+          <div class="orb marquee_10"></div>
+        </span>
+        <span>
+          <div class="orb marquee_6"></div>
+          <div class="orb marquee_7"></div>
+          <div class="orb marquee_8"></div>
+          <div class="orb marquee_9"></div>
+          <div class="orb marquee_10"></div>
+        </span>
+        <span>
+          <div class="orb marquee_6"></div>
+          <div class="orb marquee_7"></div>
+          <div class="orb marquee_8"></div>
+          <div class="orb marquee_9"></div>
+          <div class="orb marquee_10"></div>
+        </span>
+  
+      </div>
+    </div>
 
   </div>
+
+  
 
 
   <a href="#" class="reservation">
@@ -264,7 +459,9 @@
 
   <!--JS檔外連-->
   <script src="./js/loading.js"></script>
+  <script src="./js/nav.js"></script>
   <script src="./js/aboutpage_timeline.js"></script>
+  <script src="./js/aboutpage_tabs.js"></script>
   <!--JS檔外連-->
 
 

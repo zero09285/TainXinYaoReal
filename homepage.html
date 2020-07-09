@@ -41,52 +41,86 @@
         <div class="loader">Loading...</div>
     </div>
 
-    <nav id="nav" class="sticky-top">
-        <div class="container">
-            <div class="navlist">
-                <a class="icon" href="#">
-                    <img class="img" src="./img/icon.png" alt="">
-                </a>
-                <nav class="navs nav5">
-                    <ul class="nav_ul">
-                        <li class="nav_li">
-                            <a href="./about.html" target="_blank">關於添興窯</a>
-                            <ul>
-                                <!-- <li><a href="#">Subnav Item</a></li>
-                                <li><a href="#">Subnav Item</a></li>
-                                <li><a href="#">Subnav Item</a></li> -->
+    <header class="header">
+        <div id="headerSection" class="container">
+            <div class="headerContent">
+                <h1 class="logo">
+                    <img src="./logo.png" alt="添興窯logo">
+                </h1>
+                <nav class="navBar">
+                    <ul class="mainMenu">
+                        <h2>Nav Bar</h2>
+                        <li class="mainLi">
+                            <a class="mainA" href="#"><span class="select">關於添興</span></a>
+                        </li>
+                        <li class="mainLi">
+                            <a class="mainA" href="#"><span class="select">參觀資訊</span></a>
+                            <ul class="subMenu">
+                                <li><a href="#"><span class="select">車票與交通</span></a></li>
+                                <li><a href="#"><span class="select">環境設施</span></a></li>
                             </ul>
                         </li>
-                        <li class="nav_li">
-                            <a href="#">參觀資訊</a>
-                            <ul>
-                                <li><a href="#">票價與交通</a></li>
-                                <li><a href="#">環境設施</a></li>
-                            </ul>
+                        <li class="mainLi">
+                            <a class="mainA" href="#"><span class="select">DIY體驗</span></a>
                         </li>
-                        <li class="nav_li">
-                            <a href="#">DIY體驗</a>
+                        <li class="mainLi">
+                            <a class="mainA" href="#"><span class="select">經典商品</span></a>
                         </li>
-                        <li class="nav_li">
-                            <a href="#">經典商品</a>
+                        <li class="mainLi">
+                            <a class="mainA" href="#"><span class="select">周邊景點</span></a>
                         </li>
-                        <li class="nav_li">
-                            <a href="#">周邊商品</a>
-                        </li>
-                        <li class="nav_li">
-                            <a href="#">團體預約</a>
+                        <li class="mainLi">
+                            <a class="mainA" href="#"><span class="select">團體預約</span></a>
                         </li>
                     </ul>
+                    <div class="icon">
+                        
+                        <div class="icon_change ">
+                        <a id="icon_a" href="#">
+                            <img class="icon_pic " src="./img/icon-fb-h.svg" alt="">
+                            <img class="icon_pic" src="./img/icon-fb.svg" alt="">
+                        </a>
+                        </div>
+    
+                        <div class="icon_change ">
+                            <a id="icon_a" href="#">
+                            <img class="icon_pic " src="./img/icon-ig-h.svg" alt="">
+                            <img class="icon_pic" src="./img/icon-ig.svg" alt="">
+                        </a>
+                        </div>
+    
+                        <div class="icon_change ">
+                            <a id="icon_a" href="#">
+                            <img class="icon_pic " src="./img/icon-twitter-h.svg" alt="">
+                            <img class="icon_pic" src="./img/icon-twitter.svg" alt="">
+                        </a>
+                        </div>
+    
+                        <div class="icon_change ">
+                            <a id="icon_a" href="#">
+                            <img class="icon_pic " src="./img/icon-youtube-h.svg" alt="">
+                            <img class="icon_pic" src="./img/icon-youtube.svg" alt="">
+                        </a>
+                        </div>
+    
+                    </div>
                 </nav>
+    
+                <div class="burgar_btn ">
+                    <a href="#">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </a>
+                </div>
             </div>
         </div>
-    </nav>
+    </header>
 
 
     <div id="main">
         <!--內容-->
         <div id="banner">
-            <span>我是Banner</span>
         </div>
         <!--逐格動畫-->
 
@@ -301,6 +335,7 @@
     <!--JS CDN套件-->
 
     <!--JS檔外連-->
+    <script src="./js/nav.js"></script>
     <script src="./js/homepage_video.js"></script>
     <script src="./js/homepage_fire.js"></script>
     <script src="./js/homepage_card.js"></script>
